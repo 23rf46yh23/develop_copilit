@@ -43,7 +43,7 @@ class TestConfig:
     def test_get_config_testing(self):
         """Test getting testing config"""
         config = get_config("testing")
-        assert TestingConfig
+        assert config == TestingConfig
     
     def test_config_as_dict(self):
         """Test configuration as dictionary"""
